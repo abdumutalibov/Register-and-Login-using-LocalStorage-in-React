@@ -33,7 +33,7 @@ function Login() {
     return (
         <div>
             {home ? <form onSubmit={handleLogin}>
-                <h3>LogIn</h3>
+                <h3>Tizimga kirish</h3>
                 <div className="form-group">
                     <label>Email</label>
                     <input type="email" className="form-control" placeholder="Enter email" onChange={(event) => setEmaillog(event.target.value)} />
@@ -44,7 +44,7 @@ function Login() {
                     <input type="password" className="form-control" placeholder="Enter password" onChange={(event) => setPasswordlog(event.target.value)} />
                 </div>
 
-                <button type="submit" className="btn btn-dark btn-lg btn-block">Login</button>
+                <button type="submit" className="btn btn-success btn-lg btn-block">Boshlash</button>
 
                 {flag && <Alert color='primary' variant="warning" >
                     Fill correct Info else keep trying.
