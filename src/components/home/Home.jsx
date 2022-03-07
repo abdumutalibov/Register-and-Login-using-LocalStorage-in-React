@@ -44,31 +44,8 @@ function Home() {
 
     return (
         <>
-            <h1>Enter the Film Details.</h1>
-            <form onSubmit={submitHanddler}>
-                <div className="form-group">
-                    <label>Category</label>
-                    <input type="text" className="form-control" placeholder="eg. movies, etc" onChange={(event) => setFirst(event.target.value)} />
-                </div>
-
-                <div className="form-group">
-                    <label>Language</label>
-                    <input type="text" className="form-control" placeholder="eg. kannada, etc" onChange={(event) => setSecond(event.target.value)} />
-                </div>
-
-
-                <div className="form-group">
-                    <label>Genre</label>
-                    <input type="text" className="form-control" placeholder="eg. all" onChange={(event) => setThird(event.target.value)} />
-                </div>
-
-                <div className="form-group">
-                    <label>Sort</label>
-                    <input type="text" className="form-control" placeholder="eg. voting" onChange={(event) => setFourth(event.target.value)} />
-                </div>
-
-                <button type="submit" className="btn btn-dark btn-lg btn-block">Post Request</button>
-            </form>
+            <h1>Home</h1>
+        
         </>
     )
 }
